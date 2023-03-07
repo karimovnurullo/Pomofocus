@@ -9,7 +9,7 @@ const soundClick = new Audio("./assets/music/clicked.wav");
 const soundpassed = new Audio("./assets/music/passed.wav");
 
 
-let time = 3;
+let time = 1500;
 let intervalID;
 
 soundpassed.load();
