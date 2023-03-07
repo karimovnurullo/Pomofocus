@@ -67,8 +67,12 @@ function init() {
 			const clickedBtn = btn.classList;
 			if (btn.classList.contains("shortBreak")) {
 				backgroundChanger("#38858A");
-			} else if (btn.classList.contains("longBreak")) {
+			} 
+			else if (btn.classList.contains("longBreak")) {
 				backgroundChanger("#397097");
+			}
+			else if (btn.classList.contains("pomodoro")) {
+				backgroundChanger("#C15C5C");
 			}
 
 
