@@ -66,9 +66,9 @@ function init() {
 			const isActive = btn.classList.contains("active");
 			const clickedBtn = btn.classList;
 			if (btn.classList.contains("shortBreak")) {
-				backgroundChanger("red");
+				backgroundChanger("#38858A");
 			} else if (btn.classList.contains("longBreak")) {
-				backgroundChanger("red");
+				backgroundChanger("#397097");
 			}
 
 
